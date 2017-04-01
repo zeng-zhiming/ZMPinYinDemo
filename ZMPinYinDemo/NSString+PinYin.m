@@ -62,7 +62,7 @@
 {
     // 空值判断
     if (IsNullString(self)) {
-        return nil;
+        return @"";
     }
     // 首字母存储
     NSMutableString *firstLetterStirng = [NSMutableString string];
